@@ -28,6 +28,6 @@ setup(
     install_requires=["joblib", "scikit-learn"],
     package_data={
         # If any package contains *.txt or *.rst files, include them:
-        "genclf": ["models/*.pkl"],
+        "genderclf": ["models/*.pkl"],
     },
 )

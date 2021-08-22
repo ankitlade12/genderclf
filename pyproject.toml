@@ -1,10 +1,10 @@
 [tool.poetry]
-name = "genclf"
+name = "genderclf"
 version = "0.0.1"
 description = "Gender Classifier ML Package for classifying gender using firstname"
 authors = ["Ankit Hemant Lade <ankitlade12@gmail.com>"]
 readme = "README.md"
-repository = "https://github.com/ankitlade12/genclf"
+repository = "https://github.com/ankitlade12/genderclf"
 
 classifiers=[
         "License :: OSI Approved :: MIT License",

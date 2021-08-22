@@ -9,7 +9,7 @@ pip install genclf
 ### Usage
 #### Basic usage
 ```python
->>> from genclf import GenderClassifier
+>>> from genderclf import GenderClassifier
 >>> g = GenderClassifier()
 >>> g.name = 'Hemant'
 >>> g.predict()
@@ -17,7 +17,7 @@ pip install genclf
 
 #### Loading Different Models
 ```python
->>> from genclf import GenderClassifier
+>>> from genderclf import GenderClassifier
 >>> g = GenderClassifier()
 >>> g.name = 'Hansa'
 >>> g.load('logit')
@@ -26,7 +26,7 @@ pip install genclf
 
 #### Using the Classify Method
 ```python
->>> from genclf import GenderClassifier
+>>> from genderclf import GenderClassifier
 >>> g = GenderClassifier()
 >>> g.load('nb')
 >>> g.classify("Hemant")
@@ -34,13 +34,13 @@ pip install genclf
 
 #### Check Gender
 ```python
->>> from genclf import GenderClassifier
+>>> from genderclf import GenderClassifier
 >>> g = GenderClassifier()
 >>> g.is_male("Hemant")
 ```
 
 ```python
->>> from genclf import GenderClassifier
+>>> from genderclf import GenderClassifier
 >>> g = GenderClassifier()
 >>> g.is_female("Hansa")
 ```

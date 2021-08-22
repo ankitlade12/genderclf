@@ -60,10 +60,10 @@ class GenderClassifier(object):
 
     def is_female(self, new_name):
         self.name = new_name
-        result = seld.predict()
+        result = self.predict()
         return result == "Female"
 
     def is_male(self, new_name):
         self.name = new_name
-        result = seld.predict()
+        result = self.predict()
         return result == "Male"
