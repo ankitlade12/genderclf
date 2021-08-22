@@ -3,7 +3,7 @@
 
 ### Installation
 ```bash
-pip install genclf
+pip install genderclf
 ```
 
 ### Usage
