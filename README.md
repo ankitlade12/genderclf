@@ -19,7 +19,7 @@ pip install genclf
 ```python
 >>> from genclf import GenderClassifier
 >>> g = GenderClassifier()
->>> g.name = 'Hemant'
+>>> g.name = 'Hansa'
 >>> g.load('logit')
 >>> g.predict()
 ```
